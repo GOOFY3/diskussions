@@ -1,0 +1,34 @@
+<head>
+  <meta charset="utf-8" />
+  <title>Social Network App model</title>
+</head>
+
+<body>
+  <div id = "wrapper">
+    <div id = "profile-area">
+      <div id = "side-profile" class = "side-box"><a>Username</a></div>
+      <div id = "side-all" class = "side-box"><a>Community</a></div>
+      <div id = "side-youlike" class = "side-box">
+        <h3>Following</h3>
+        <div class = "box-content">
+          <div><a class = "filter-user">aquibb</a></div>
+          <div><a class = "filter-user">sid07</a></div>
+          <div><a class = "filter-user">yankee</a></div>
+        </div>
+      </div>
+      <div id = "side-likeyou" class="side-box">
+        <h3>Follows You:</h3>
+        <div class = "boxcontent">
+          <div><a class = "filter-user">aquibb</a></div>
+          <div><a class = "filter-user">sid07</a></div>
+          <div><a class = "filter-user">yankee</a></div>
+        </div>
+      </div>
+    </div>
+      <div id = "feed-area">
+        {{> postForm}}
+        {{> postList}}
+      </div>
+    </div>
+
+</body>
